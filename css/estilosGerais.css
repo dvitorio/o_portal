@@ -88,6 +88,34 @@ h1, h2, h4{
     background-color: #FFA500 !important;
 }
 
+.nossaHistoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.historicoTextos{
+    width: 55vw;
+}
+
+.historicoTextos p{
+    line-height: 2.25rem;
+}
+
+.historicoImagem{
+    width: 45vw;
+    min-height: 50vh;
+}
+
+.historicoImagem img{
+    max-width: 100%;
+    border-radius: 0.375rem;
+}
+
+
 .rodape{
     display: grid;
     grid-template-columns: "50vw 50vw";
@@ -146,6 +174,7 @@ h1, h2, h4{
 }
 
 
+
 /*Resolução até dispositivos de 480px*/
 @media screen and (max-width: 40rem) {
     .navegacao a,
@@ -187,6 +216,23 @@ h1, h2, h4{
     .quemSomosDescricao{
         margin: 0.3rem auto !important;
         width: 99vw;
+    }
+    .nossaHistoria,
+    .historicoTextos{
+        width: 100vw;
+        margin: 0 auto;
+        height: auto;
+    }
+    .historicoTextos p{
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
+    .historicoImagem{
+        width: 100% !important;
+    }
+    .historicoImagem img{
+        height: auto;
+        max-width: 100% !important;
     }
     .rodape{
         display: flex;
