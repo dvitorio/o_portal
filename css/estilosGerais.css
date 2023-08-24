@@ -115,6 +115,10 @@ h1, h2, h4{
     border-radius: 0.375rem;
 }
 
+.formulario{
+    width: 60vw;
+    min-height: 70vh;
+}
 
 .rodape{
     display: grid;
@@ -234,6 +238,12 @@ h1, h2, h4{
         height: auto;
         max-width: 100% !important;
     }
+
+    .formulario,
+    form{
+        width: 100vw !important;
+    }
+
     .rodape{
         display: flex;
         align-items: center;
