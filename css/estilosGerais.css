@@ -76,7 +76,7 @@ h1, h2, h4{
 .quemSomosDescricao{
     grid-area: quemSomosDescricao;
     width: 40vw;
-    height: 65vh;
+    min-height: 65vh;
 }
 
 .quemSomosDescricao p{
@@ -88,6 +88,62 @@ h1, h2, h4{
     background-color: #FFA500 !important;
 }
 
+.rodape{
+    display: grid;
+    grid-template-columns: "50vw 50vw";
+    grid-template-rows: auto;
+    grid-template-areas: "rodapeEsquerdo rodapeMenu"
+                         "rodapeCreditosFinais rodapeCreditosFinais";
+    background-color: rgb(49, 46, 46);
+    width: 100vw;
+    gap: 0.3125rem;
+    min-height: 10rem !important;
+    margin-top: 1rem;
+}
+
+.rodape h6,
+.rodapeLinksMenu a{
+    color: rgb(188, 188, 159) !important;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.rodapeLinksMenu a:hover,
+.rodapeMidias i:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFA500 !important;
+}
+
+.rodape i{
+    color: rgb(216, 200, 181);
+    font-size: 1.4rem;
+}
+
+.rodapeMidias,
+.rodapeLinksMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapeEsquerdo{
+    grid-area: rodapeEsquerdo;
+    width: 40vw;
+    min-height: 4rem;
+}
+
+.rodapeMenu{
+    grid-area: rodapeMenu;
+    width: 40vw;
+    min-height: 4rem;
+}
+
+.rodapeCreditosFinais{
+    grid-area: rodapeCreditosFinais;
+    width: 100vw;
+    height: 2rem;
+}
 
 
 /*Resolução até dispositivos de 480px*/
@@ -131,6 +187,25 @@ h1, h2, h4{
     .quemSomosDescricao{
         margin: 0.3rem auto !important;
         width: 99vw;
+    }
+    .rodape{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        min-height: 14rem !important;
+    }
+    .rodapeCreditosFinais,
+    .rodapeEsquerdo,
+    .rodapeLinksMenu,
+    .rodapeMidias,
+    .rodapeMenu{
+        width: 100vw;
+        margin: 0 auto !important;
+    }
+
+    .rodapeMenu a{
+        font-size: 0.7rem !important;
+        margin: 0 auto !important;
     }
 
 }
