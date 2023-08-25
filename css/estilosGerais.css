@@ -210,6 +210,7 @@ h1, h2, h4{
     .capaImagem {
         height: 30vh !important;
         width: auto !important;
+        margin: 1rem auto;
     }
     .capaImagem img{
         max-width: 100%;
