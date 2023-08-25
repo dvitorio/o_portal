@@ -115,6 +115,21 @@ h1, h2, h4{
     border-radius: 0.375rem;
 }
 
+.projetos{
+    background-color: #6495ed;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.projetos h3{
+    line-height: 2.5rem;
+    letter-spacing: 0.25rem;
+}
+
+.aprendizadoMusical img{
+    width: 20vw;
+}
+
 .formulario{
     width: 60vw;
     min-height: 70vh;
