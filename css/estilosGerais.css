@@ -134,9 +134,27 @@ h1, h2, h4{
     width: 20vw;
 }
 
+#btnProjetoAbracoPercussivo{
+    letter-spacing: 0.2rem;
+    font-weight: 600 !important;
+    color: cornflowerblue;
+    background-color: #ffffff !important;
+    border-radius: 25px;
+    padding: 1rem 1.5rem;
+}
+
+#btnProjetoAbracoPercussivo:hover{
+    transform: scale(1.05);
+    transition: all 0.4s;
+}
+
 .formulario{
     width: 60vw;
     min-height: 70vh;
+}
+
+.formulario button{
+    background-color: #6495ed !important;
 }
 
 .rodape{
@@ -270,6 +288,14 @@ h1, h2, h4{
     }
     .projetos h3{
         font-size: 1.25rem;
+    }
+    .aprendizadoMusical h3{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .aprendizadoMusical button{
+        width: 80vw !important;
+        margin: 1rem auto !important;
     }
     .formulario,
     form{
