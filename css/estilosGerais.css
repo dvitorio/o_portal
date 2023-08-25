@@ -38,6 +38,10 @@ h1, h2, h4{
     min-height: 75vh;
 }
 
+.primeiraPagina img{
+    max-width: 80vw !important;
+}
+
 .capaFrase h1{font-size: 4rem}
 
 .capaFrase h2{
@@ -213,9 +217,9 @@ h1, h2, h4{
         margin: 1rem auto;
     }
     .capaImagem img{
-        max-width: 80%;
+        max-width: 90%;
         height: auto !important;
-        margin: 0.rem auto !important;
+        margin: 1rem auto !important;
     }
     .capaFrase h1{
         font-size: 3rem;
