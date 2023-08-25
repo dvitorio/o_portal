@@ -213,7 +213,7 @@ h1, h2, h4{
         margin: 1rem auto;
     }
     .capaImagem img{
-        max-width: 100%;
+        max-width: 80%;
         height: auto !important;
     }
     .capaFrase h1{
