@@ -215,6 +215,7 @@ h1, h2, h4{
     .capaImagem img{
         max-width: 80%;
         height: auto !important;
+        margin: 0.rem auto !important;
     }
     .capaFrase h1{
         font-size: 3rem;
