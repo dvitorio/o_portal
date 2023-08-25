@@ -98,7 +98,7 @@ h1, h2, h4{
 }
 
 .historicoTextos{
-    width: 55vw;
+    width: 45vw;
 }
 
 .historicoTextos p{
@@ -107,7 +107,7 @@ h1, h2, h4{
 
 .historicoImagem{
     width: 45vw;
-    min-height: 50vh;
+    height: auto;
 }
 
 .historicoImagem img{
@@ -228,6 +228,11 @@ h1, h2, h4{
         flex-direction: column;
         width: 100vw;
     }
+    .quemSomos button{
+        display: block;
+        margin: 1rem auto;
+        width: 80vw;
+    }
     .quemSomosImagem{
         margin: 0.3rem auto !important;
         width: 99vw;
@@ -244,16 +249,22 @@ h1, h2, h4{
     }
     .historicoTextos p{
         font-size: 0.9rem;
-        line-height: 2rem;
+        line-height: 1.85rem;
     }
     .historicoImagem{
-        width: 100% !important;
+
+        width: auto !important;
+        height: auto !important;
+        overflow-y: hidden !important;
     }
     .historicoImagem img{
-        height: auto;
-        max-width: 100% !important;
+        height: auto !important;
+        max-width: 90% !important;
+        margin: 0 auto;
     }
-
+    .projetos h3{
+        font-size: 1.25rem;
+    }
     .formulario,
     form{
         width: 100vw !important;
