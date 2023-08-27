@@ -11,8 +11,3 @@ const connection = mysql.createConnection({
 connection.connect();
 
 
-
-//Ativação do modo escuro
-btnModoEscuro.onclick = ()=>{
-    document.classList.add('modoEscuro');
-}
