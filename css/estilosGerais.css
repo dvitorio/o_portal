@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+.ancora:hover{
+    cursor: pointer;
+}
+
 html{
     scroll-behavior: smooth !important;
 }
