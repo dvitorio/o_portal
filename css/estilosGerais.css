@@ -159,13 +159,22 @@ h1, h2, h4{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100vw;
     min-height: 100vh;
+    overflow: hidden;
 }
 
-.tituloProjetos{
-    align-self: flex-start;
-    text-align: center;
+.projetos p{
+    font-weight: 400;
+}
+
+.projetos img{
+    max-width: 50%;
+}
+
+.projetoIdentidadeSequestra{
+    background-color: #2333c4 !important;
 }
 
 .sejaApoiador{
@@ -339,9 +348,20 @@ h1, h2, h4{
     .projetos{
         flex-direction: column;
         margin: 1rem auto;
+        overflow: hidden;
     }
-    .projetos h3{
-        font-size: 1.25rem;
+    .projetos img{
+        max-width: 90vw;
+    }
+    .projetos p{
+        font-size: 1rem;
+    }
+    .projetos h2{
+        font-size: 2rem;
+    }
+    .aprendizadoMusical img{
+        max-width: 80%;
+        overflow: hidden;
     }
     .aprendizadoMusical h3{
         font-size: 0.9rem;
