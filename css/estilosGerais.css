@@ -432,8 +432,8 @@ h1, h2, h4{
     .projetos h2{
         font-size: 2rem;
     }
-    #saberMais{
-        width: 80vw;
+    #saberMais a{
+        width: 80vw !important;
     }
     .saberMais{
         display: flex;
