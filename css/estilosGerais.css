@@ -441,19 +441,19 @@ h1, h2, h4{
         justify-content: center;
         flex-direction: column;
         height: auto;
-        margin: 0.5rem auto;
+        margin: 0 auto;
         width: 100vw;
     }
     .saberMaisEstrategias,
     .saberMaisMissaoObjetivos,
     .saberMaisImpactosResultados{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 99vw;
-        margin: 0.5rem auto;
-        height: auto;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        width: 100vw !important;
+        margin: 0.5rem auto !important;
+        height: auto !important;
     }
     .saberMais h4,
     .saberMais h5{
