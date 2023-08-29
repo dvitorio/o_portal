@@ -432,6 +432,9 @@ h1, h2, h4{
     .projetos h2{
         font-size: 2rem;
     }
+    #saberMais{
+        width: 80vw;
+    }
     .saberMais{
         display: flex;
         align-items: center;
