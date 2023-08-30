@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .ancora:hover{
@@ -26,6 +29,8 @@ h1, h2, h4{
     background-color: #FFC107!important; 
     height: auto;
 }
+
+.navegacao a{font-size: 0.9rem}
 
 .navegacao a:hover{
     background-color: rgb(47, 45, 44);
@@ -55,9 +60,7 @@ h1, h2, h4{
     min-height: 75vh;
 }
 
-.primeiraPagina img{
-    max-width: 70vw !important;
-}
+.primeiraPagina img{max-width: 70vw !important}
 
 .capaImagem{
     width: 50vw;
@@ -69,11 +72,17 @@ h1, h2, h4{
     border-radius: 8px;
 }
 
-.capaFrase h1{font-size: 4rem}
+.capaFrase h1{
+    font-size: 5rem;
+}
 
 .capaFrase h2{
     font-size: 3rem;
     letter-spacing: 2px;
+}
+
+#saberMais{
+    max-width: 16rem !important;
 }
 
 .quemSomos{
@@ -149,13 +158,13 @@ h1, h2, h4{
 
 .saberMais{
     display: grid;
-    grid-template-columns: "33% 33% 33%";
+    grid-template-columns: "33vw 33vw 33vw";
     grid-template-rows: auto;
     grid-template-areas: "saberMaisTitulo saberMaisTitulo saberMaisTitulo"
                          "saberMaisMissaoObjetivos saberMaisEstrategias saberMaisImpactosResultados"
                          "ancora ancora ancora";
     width: 100vw;
-    gap: 0.5rem;
+    gap: 0.3125rem;
     min-height: 100vh;
 }
 
@@ -399,13 +408,15 @@ h1, h2, h4{
     }
     .nossaHistoria,
     .historicoTextos{
-        width: 100vw;
+        width: 95vw;
         margin: 0 auto;
         height: auto;
     }
     .historicoTextos p{
         font-size: 0.9rem;
         line-height: 1.85rem;
+        margin: 0 auto;
+        padding: 0 0.5rem !important;
     }
     .historicoImagem{
 
@@ -441,7 +452,7 @@ h1, h2, h4{
         justify-content: center;
         flex-direction: column;
         height: auto;
-        margin: 0 auto;
+        margin: 0 auto !important;
         width: 100vw;
     }
     .saberMaisEstrategias,
@@ -451,8 +462,8 @@ h1, h2, h4{
         align-items: center !important;
         justify-content: center !important;
         flex-direction: column !important;
-        width: 100vw !important;
-        margin: 0.5rem auto !important;
+        width: 96vw !important;
+        margin: 0 auto !important;
         height: auto !important;
     }
     .saberMais h4,
@@ -465,7 +476,7 @@ h1, h2, h4{
         line-height: 1.75rem;
     }
     .saberMais img{
-        margin: 0.5rem auto !important;
+        margin: 0 auto !important;
     }
     .aprendizadoMusical img{
         max-width: 80%;
