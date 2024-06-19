@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+li{list-style-type: none}
+
+.centralizado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    width: 100vw;
+    height: auto;
+    backdrop-filter: blur(50px);
+    border-bottom: 0.0125rem solid grey !important;
+}
+
+.navbar a{
+    letter-spacing: 1px;
+}
+
+.principal{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.primeira_pagina{
+    background-image: url('/img/fundo_primeira_pagina.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 98vh;
+}
+
+.primeira_pagina a{
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+
+.frase_capa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60vw;
+    height: 10rem;
+    margin: 25vh 20vw;
+}
+
+.frase_capa p{
+    font-weight: 200;
+}
+
+.box_quem_somos{
+    width: 99vw;
+    min-height: 95vh;
+}
+
+.quem_somos{
+    width: 50vw;
+    border-radius: 1rem !important;
+}
+
+.quem_somos img{
+    width: 70%;
+    overflow: hidden;
+    border-radius: 1rem !important;
+}
+
+.quem_somos p{
+    width: 50vw;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.box_projetos{
+    width: 99vw;
+    min-height: 90vh;
+    background-color: whitesmoke;
+}
+
+.projeto{
+    width: 70vw;
+    min-height: 60vh;
+    background-color: white;
+}
+
+.projeto img{
+    width: 50vw;
+    overflow: hidden;
+}
+
+.projeto p{
+    line-height: 2rem;
+    width: 50vw;
+    text-align: justify;
+}
+
+.formulario{
+    background-image: url('/img/formulario_textura.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+.formulario, 
+.formulario label{
+    color: whitesmoke;
+}
+
+#contactForm{
+    width: 60vw !important;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10rem;
+    background-color: rgb(43, 41, 41);
+    padding: 0.25rem;
+}
+
+.rodape p{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+/*Resolução para dispositivos com até 480px*/
+@media screen and (max-width: 30rem) {
+    .principal,
+    .primeira_pagina{
+        width: 100vw !important;
+        min-height: 100vh;
+    }
+
+    .box_quem_somos{
+        margin: 0 auto !important;
+        width: 100vw !important;
+        height: auto;
+    }
+    .quem_somos p{
+        margin: 0 auto !important;
+        width: 100vw !important;
+        height: auto;
+    }
+
+    .box_projetos,
+    .projeto p,
+    .projeto img{
+        width: 100vw;
+    }
+
+    .projeto p{
+        padding: 0 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    #contactForm{
+        width: 100vw !important;
+    }
+}
+
