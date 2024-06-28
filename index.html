@@ -29,32 +29,50 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle mx-5 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Institucional
+            <a class="nav-link dropdown-toggle mx-5 text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>Institucional</b>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item text-dark" href="#"><b>Sobre nós</b></a></li>
-              <li><a class="dropdown-item text-dark" href="#"><b>Estrutura organizacional</b></a></li>
-              <li><a class="dropdown-item text-dark" href="#"><b>Projetos</b></a></li>
-              <li><a class="dropdown-item text-dark" href="#"><b>Galeria de fotos</b></a></li>
+              <li><a class="dropdown-item text-dark" href="#historico"><b>Histórico</b></a></li>
+              <li><a class="dropdown-item text-dark" href="#sede"><b>Sede</b></a></li>
+              <li><a class="dropdown-item text-dark" href="#acoes"><b>Ações</b></a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-5 text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>Projetos</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="#abraco_percussivo"><b>Abraço percussivo</b></a></li>
+              <li><a class="dropdown-item text-dark" href="#"><b>Desenvoom</b></a></li>
+              <li><a class="dropdown-item text-dark" href="#"><b>Intercâmbio cultural</b></a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-5 text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>Notícias</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="#"><b>Instagram</b></a></li>
+              <li><a class="dropdown-item text-dark" href="#"><b>Youtube</b></a></li>
+              <li><a class="dropdown-item text-dark" href="#"><b>Facebook</b></a></li>
             </ul>
           </li>
               <li class="nav-item">
-                <a class="mx-5 nav-link text-white" href="#calendario">Calendário</a>
+                <a class="mx-5 nav-link text-warning" href="#voluntariado"><b>Cadastre-se!</b></a>
               </li>
               <li class="nav-item">
-                <a class="mx-5 nav-link text-white" href="#noticias">Notícias</a>
+                <a class="mx-5 nav-link text-warning" href="#transferencia"><b>Apoie nossos projetos</b></a>
               </li>
-              <li class="nav-item">
-                <a class="mx-5 nav-link text-white" href="#voluntariado">Voluntariado</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mx-5 text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>Contatos</b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-dark" href="#"><b>E-mail</b></a></li>
+                  <li><a class="dropdown-item text-dark" href="#"><b>Whatsapp</b></a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="mx-5 nav-link text-white" href="#transferencia">Transferência</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#doacao">Doação</a>
-              </li>
-            <a class="btn btn-light mx-5" href="#formulario"><i class="fa-brands fa-whatsapp"></i><b> Contato</b></a>
         </div>
       </nav>
 
@@ -62,14 +80,14 @@
         <h1 class="text-center text-white">Harmonizando futuros, transformando vidas</h1>
         <p class="text-center text-white">Transforme seu ritmo em arte: junte-se a nós nas aulas de percussão e sinta a
           batida que move o mundo!</p>
-        <button class="btn btn-primary mb-2">Clique e conheça nossos projetos!</button>
+        <button class="btn btn-warning mb-2 text-dark">Clique e conheça nossos projetos!</button>
       </article>
     </section>
 
 
     <!--Seção "Quem Somos"-->
-    <section class="box_quem_somos centralizado" id="box_quem_somos">
-      <h4 class="py-3 text-center text-secondary">Quem somos</h4>
+    <section class="box_quem_somos centralizado" id="historico">
+      <h4 class="py-3 text-center text-secondary">Histórico</h4>
       <div class="quem_somos">
         <img class="d-block img py-3 mx-auto rounded" src="/img/abraco2.jpeg" alt="">
         <p class="text-dark">
@@ -111,7 +129,7 @@
           mudança. Através dela, buscamos inspirar confiança, habilidades de colaboração e autoexpressão, capacitando os
           jovens a superarem obstáculos e a construírem um futuro brilhante.
         </p>
-        <button class="btn btn-dark mb-3">Conhecer mais</button>
+        <button class="btn btn-warning mb-3">Conhecer mais</button>
       </div>
       <a class="mx-auto text-center" href="#inicio"><i class="fa-solid fa-chevron-up text-dark"></i></a>
     </section>
@@ -119,7 +137,7 @@
     <!--Projetos-->
     <section class="box_projetos p-3">
       <article class="container projeto rounded">
-        <h4 class="py-3 text-center text-secondary"><b>Projeto Abraço Percussivo</b></h4>
+        <h4 class="py-3 text-center text-secondary" id="abraco_percussivo"><b>Projeto Abraço Percussivo</b></h4>
         <img class="d-block img mx-auto rounded" src="/img/abracoCapa.png" alt="">
         <p class="py-3 text-secondary mx-auto">
           Junte-se ao ritmo
@@ -128,7 +146,7 @@
           energia contagiante da percussão. Neste projeto, você aprenderá a tocar instrumentos de percussão tradicionais
           e modernos, mergulhando na cultura rítmica de Salvador, Bahia. Venha fazer parte dessa jornada musical, onde
           cada batida é um abraço na alma e cada compasso é uma expressão de união.<br>
-          <button class="btn btn-primary my-3">Conheça o projeto</button>
+          <button class="btn btn-warning my-3">Conheça o projeto</button>
         </p>
       </article>
 
@@ -143,7 +161,7 @@
           interativas e funcionais, pequenos webapps e programas simples enquanto construímos juntos uma presença online
           para sua comunidade. Não é apenas um
           site, é uma oportunidade para aprender e crescer!.<br>
-          <button class="btn btn-primary my-3">Mais informações</button>
+          <button class="btn btn-warning my-3">Mais informações</button>
         </p>
       </article>
     </section>
@@ -175,19 +193,19 @@
           <label for="message" class="form-label">Mensagem</label>
           <textarea class="form-control" id="message" rows="4" required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-warning">Enviar</button>
       </form>
     </section>
 
     <!--Rodapé-->
     <footer class="footer mx-auto rodape row" id="formulario">
       <div class="col-xl-3">
-        <p class="text-center text-white">&copy; Instituto O Portal - 2024. Todos os direitos reservados</p>
-        <p class="text-center text-white">Desenvolvido por Daniel Vitorio</p>
+        <p class="text-center text-dark">&copy; Instituto O Portal - 2024. Todos os direitos reservados</p>
+        <p class="text-center text-dark">Desenvolvido por Daniel Vitorio</p>
       </div>
       <div class="col-xl-3">
-        <p class="text-center text-white">Rua Direta de Narandiba, Salvador/BA </p>
-        <p class="text-center text-white">(71) 9 9999-9999</p>
+        <p class="text-center text-dark">Rua Direta de Narandiba, Salvador/BA </p>
+        <p class="text-center text-dark">(71) 9 9999-9999</p>
       </div>
       <div class="border col-xl-3">
 

@@ -19,14 +19,17 @@ li{list-style-type: none}
 }
 
 .navbar{
-    width: 100vw;
+    width: 98vw;
     height: auto;
     backdrop-filter: blur(50px);
     border-bottom: 0.0125rem solid grey !important;
 }
 
-.navbar a{
-    letter-spacing: 1px;
+.navbar a:hover{
+    background-color: yellow;
+    border-radius: 0.25rem;
+    color: black !important;
+    padding: 0.25rem;
 }
 
 .principal{
@@ -127,7 +130,7 @@ li{list-style-type: none}
     justify-content: center;
     width: 100vw;
     height: 10rem;
-    background-color: rgb(43, 41, 41);
+    background-color: darkorange;
     padding: 0.25rem;
 }
 
