@@ -19,16 +19,18 @@ li{list-style-type: none}
 }
 
 .navbar{
-    width: 98vw;
+    width: 100vw;
     height: auto;
-    backdrop-filter: blur(50px);
     border-bottom: 0.0125rem solid grey !important;
+}
+.navbar h1{
+    text-shadow: 1px 1px 1px black;
 }
 
 .navbar a:hover{
-    background-color: yellow;
+    background-color: rgb(14, 14, 14);
     border-radius: 0.25rem;
-    color: black !important;
+    color: rgb(250, 234, 12) !important;
     padding: 0.25rem;
 }
 
