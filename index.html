@@ -65,7 +65,9 @@
                 <a class="mx-5 nav-link text-dark" href="#voluntariado"><b>Cadastre-se!</b></a>
               </li>
               <li class="nav-item">
-                <a class="mx-5 nav-link text-dark" href="#transferencia"><b>Apoie nossos projetos</b></a>
+                <a class="mx-5 nav-link text-dark" data-bs-toggle="modal" data-bs-target="#btn_doacao">
+                  <b>Apoie nossos projetos</b>
+                </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle mx-5 text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -78,6 +80,24 @@
               </li>
         </div>
       </nav>
+
+      <div class="modal fade" id="btn_doacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Seja nosso apoiador</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-center text-dark">Acesse o QR Code, acesse nossa página de doação e ajude-nos com a quantia que puder!</p>
+              <img class="d-block img mx-auto w-50" src="/img/qr_code_site.png" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <article class="frase_capa">
         <h1 class="text-center text-white">Harmonizando futuros, transformando vidas</h1>

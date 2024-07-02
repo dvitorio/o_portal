@@ -31,6 +31,10 @@ li{list-style-type: none}
     text-shadow: 1px 1px 1px black;
 }
 
+.nav-item a:hover{
+    cursor: pointer !important;
+}
+
 .navbar a:hover{
     background-color: rgb(14, 14, 14);
     border-radius: 0.25rem;
