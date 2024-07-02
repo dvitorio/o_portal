@@ -5,18 +5,4 @@
     text-decoration: none;
 }
 
-body{
-    background-color: rgb(240, 231, 231);
-}
 
-.box_principal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-.card-body{
-    background-color: white !important;
-    text-align: justify;
-}

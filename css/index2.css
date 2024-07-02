@@ -8,6 +8,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+body{
+    background-color: rgb(244, 235, 235);
+}
+
 li{list-style-type: none}
 
 .centralizado{
@@ -32,6 +36,11 @@ li{list-style-type: none}
     border-radius: 0.25rem;
     color: rgb(250, 234, 12) !important;
     padding: 0.25rem;
+}
+
+.logo{
+    width: 8rem;
+    height: auto;
 }
 
 .principal{
@@ -66,8 +75,9 @@ li{list-style-type: none}
 }
 
 .box_quem_somos{
-    width: 99vw;
+    width: 55vw;
     min-height: 95vh;
+    background-color: white;
 }
 
 .quem_somos{
@@ -88,15 +98,15 @@ li{list-style-type: none}
 }
 
 .box_projetos{
-    width: 99vw;
+    width: 60vw;
     min-height: 90vh;
-    background-color: whitesmoke;
 }
 
 .projeto{
-    width: 70vw;
+    width: 55vw;
     min-height: 60vh;
     background-color: white;
+    margin: 2rem auto;
 }
 
 .projeto img{
